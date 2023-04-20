@@ -13,6 +13,7 @@ https://pypi.org/project/kb-controller/
 
 ```
 python -m venv venv
+source venv/bin/activate
 pip install kb-controller
 python venv/lib/python3.9/site-packages/kb_controller/controller.py
 ```
