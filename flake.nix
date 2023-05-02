@@ -32,6 +32,7 @@
 
         shellHook = ''
           ${pkgs.python}/bin/python --version
+          source venv/bin/activate
         '';
       };
     });
